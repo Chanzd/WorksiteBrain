@@ -1,0 +1,59 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "工地大脑"
+			}
+		}
+        ,{
+            "path" : "pages/index/progress/progress",
+            "style" :                                                                  
+            {
+                "navigationBarTitleText": "进度"
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/safe/safe",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "安全"
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/quality/quality",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "质量"
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/operate/operate",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "经营"
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/green/green",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "绿色施工"
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "工地大脑",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	}
+}
